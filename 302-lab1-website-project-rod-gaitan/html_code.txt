@@ -14,7 +14,7 @@
     <section class="hero">
         <img src="hero-image.jpg" alt="Hero banner">
         <h1>Welcome to Our Website</h1>
-        <p>We build simple, clean experiences that help you get things done faster.</p>
+        <p>We build simple, clean experiences that help you get things done faster!</p>
     </section>
     <h1>Welcome to Our Website</h1>
 
