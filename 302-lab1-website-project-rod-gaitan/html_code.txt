@@ -1,0 +1,43 @@
+<html>
+<head>
+      <title>Website</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <img src="hero-image.jpg" alt="Hero banner">
+        <h1>Welcome to Our Website</h1>
+        <p>We build simple, clean experiences that help you get things done faster.</p>
+    </section>
+    <h1>Welcome to Our Website</h1>
+
+
+<section class="contact">
+    <h2>Contact Us</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 My Website</p>
+</footer>
+
+</body>
+</html>
