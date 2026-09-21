@@ -1,1 +1,5 @@
-testing if project root folder '302-sba-version-control-simulation-rod-gaitan' has inherited init from parent folder '2026-cax-216'
+- testing if project root folder '302-sba-version-control-simulation-rod-gaitan' has inherited init from parent folder '2026-cax-216'
+- I actually did it a little different than the instructions dictated. While the SBA wanted us to create the repo in GitHub 
+first and then clone it, I instead created repo locally and then pushed it to the remote repo. The reason, for this is because
+I wanted to cotinue to maintain order in my local working directory, and felt that doing it as instructed would mess up how my 
+local directory is currently organized.
