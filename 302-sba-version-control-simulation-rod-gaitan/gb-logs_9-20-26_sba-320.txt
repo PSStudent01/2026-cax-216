@@ -1,0 +1,437 @@
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ pwd
+/c/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ ls
+buffer/  buffer_2/
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ ls -al
+total 4
+drwxr-xr-x 1 psrga 197609 0 Sep 20 15:35 ./
+drwxr-xr-x 1 psrga 197609 0 Sep 20 15:38 ../
+drwxr-xr-x 1 psrga 197609 0 Sep 20 15:35 buffer/
+drwxr-xr-x 1 psrga 197609 0 Sep 20 15:35 buffer_2/
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ cd ..
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216 (main)
+$ ls -al
+total 20
+drwxr-xr-x 1 psrga 197609 0 Sep 20 15:38 ./
+drwxr-xr-x 1 psrga 197609 0 Sep 17 15:40 ../
+drwxr-xr-x 1 psrga 197609 0 Sep 20 15:48 .git/
+drwxr-xr-x 1 psrga 197609 0 Sep 18 17:03 .github/
+drwxr-xr-x 1 psrga 197609 0 Sep 18 16:58 302.5-activity-practice-pr/
+drwxr-xr-x 1 psrga 197609 0 Sep 19 21:31 302-lab1-website-project-rod-gaitan/
+drwxr-xr-x 1 psrga 197609 0 Sep 20 15:35 302-sba-version-control-simulation-rod-gaitan/
+drwxr-xr-x 1 psrga 197609 0 Sep 15 17:34 test_folder/
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216 (main)
+$ cd ..
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ ls -al
+total 16
+drwxr-xr-x 1 psrga 197609 0 Sep 17 15:40  ./
+drwxr-xr-x 1 psrga 197609 0 Sep 20 14:39  ../
+drwxr-xr-x 1 psrga 197609 0 Sep 20 15:38  2026-cax-216/
+drwxr-xr-x 1 psrga 197609 0 Sep 16 12:36  2026-cax-216_noDotGit/
+drwxr-xr-x 1 psrga 197609 0 Sep 17 15:48  git-practice/
+drwxr-xr-x 1 psrga 197609 0 Sep 13 14:22 'Practice Folder'/
+drwxr-xr-x 1 psrga 197609 0 Sep 13 19:02 'Production Folder'/
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ ls
+ 2026-cax-216/   2026-cax-216_noDotGit/   git-practice/  'Practice Folder'/  'Production Folder'/
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ cd 2026-cax-216
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216 (main)
+$ ls
+302.5-activity-practice-pr/  302-lab1-website-project-rod-gaitan/  302-sba-version-control-simulation-rod-gaitan/  test_folder/
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216 (main)
+$ 
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216 (main)
+$ cd 302-sba-version-control-simulation-rod-gaitan
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ ls
+buffer/  buffer_2/
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git add .
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   test_file.txt
+
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git commit -m "first commit"
+[main 8e5db1a] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 302-sba-version-control-simulation-rod-gaitan/test_file.txt
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ 
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ g^C
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ touch index.html
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git add .
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   index.html
+
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git commit -m "added main html boilerplate"
+[main 40fbff3] added main html boilerplate
+ 1 file changed, 23 insertions(+)
+ create mode 100644 302-sba-version-control-simulation-rod-gaitan/index.html
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git checkout -b feature/header
+Switched to a new branch 'feature/header'
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/header)
+$ g^C
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/header)
+$ git status
+On branch feature/header
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/header)
+$ git add .
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/header)
+$ git status
+On branch feature/header
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/header)
+$ git commit -m "added header section to 'index.html' file via 'feature/header' branch"
+[feature/header 52f8312] added header section to 'index.html' file via 'feature/header' branch
+ 1 file changed, 11 insertions(+)
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/header)
+$ git status
+On branch feature/header
+nothing to commit, working tree clean
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/header)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git checkout -b feature/footer
+fatal: a branch named 'feature/footer' already exists
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git branch
+  feature/contact-form
+  feature/footer
+  feature/footer_2
+  feature/header
+  feature/hero-section
+  feature/navigation-bar
+  feature/testimonials
+* main
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git checkout -b feature/footer_sba
+Switched to a new branch 'feature/footer_sba'
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/footer_sba)
+$ git status
+On branch feature/footer_sba
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/footer_sba)
+$ git add .
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/footer_sba)
+$ git status
+On branch feature/footer_sba
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/footer_sba)
+$ git commit -m "added footer section to 'index.html' file via 'feature/footer' branch. Note, purposely inserted where I inserted the header section, to ensure merge conflict."
+[feature/footer_sba 3898c88] added footer section to 'index.html' file via 'feature/footer' branch. Note, purposely inserted where I inserted the header section, to ensure merge conflict.
+ 1 file changed, 9 insertions(+)
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/footer_sba)
+$ git status
+On branch feature/footer_sba
+nothing to commit, working tree clean
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/footer_sba)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ 
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git checkout feature/header
+Switched to branch 'feature/header'
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/header)
+$ 
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/header)
+$ 
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/header)
+$ git checkout main
+error: Your local changes to the following files would be overwritten by checkout:
+        302-sba-version-control-simulation-rod-gaitan/index.html
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/header)
+$ git status
+On branch feature/header
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/header)
+$ git add .
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/header)
+$ git status
+On branch feature/header
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/header)
+$ git commit -m "modified 'Home' to 'Home of the 'Rod'' in the header section"
+[feature/header d720cc8] modified 'Home' to 'Home of the 'Rod'' in the header section
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/header)
+$ git status
+On branch feature/header
+nothing to commit, working tree clean
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (feature/header)
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git merge feature/footer_3
+merge: feature/footer_3 - not something we can merge
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git branch
+  feature/contact-form
+  feature/footer
+  feature/footer_2
+  feature/footer_sba
+  feature/header
+  feature/hero-section
+  feature/navigation-bar
+  feature/testimonials
+* main
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git merge feature/footer_sba
+Updating 40fbff3..3898c88
+Fast-forward
+ 302-sba-version-control-simulation-rod-gaitan/index.html | 9 +++++++++
+ 1 file changed, 9 insertions(+)
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git merge feature/header
+Auto-merging 302-sba-version-control-simulation-rod-gaitan/index.html
+CONFLICT (content): Merge conflict in 302-sba-version-control-simulation-rod-gaitan/index.html
+Automatic merge failed; fix conflicts and then commit the result.
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main|MERGING)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+You have unmerged paths.
+  (fix conflicts and run "git commit")
+  (use "git merge --abort" to abort the merge)
+
+Unmerged paths:
+  (use "git add <file>..." to mark resolution)
+        both modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main|MERGING)
+$ git add .
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main|MERGING)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   index.html
+
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main|MERGING)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 3 commits.
+  (use "git push" to publish your local commits)
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Changes to be committed:
+        modified:   index.html
+
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main|MERGING)
+$ git commit -m "All conflicts resolved 1)header text change; 2)placement of header & footer in different parts of teh file"
+[main 0475b42] All conflicts resolved 1)header text change; 2)placement of header & footer in different parts of teh file
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 6 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git branch
+  feature/contact-form
+  feature/footer
+  feature/footer_2
+  feature/footer_sba
+  feature/header
+  feature/hero-section
+  feature/navigation-bar
+  feature/testimonials
+* main
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git push origin main
+Enumerating objects: 25, done.
+Counting objects: 100% (25/25), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (23/23), done.
+Writing objects: 100% (24/24), 2.53 KiB | 370.00 KiB/s, done.
+Total 24 (delta 11), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (11/11), completed with 1 local object.
+To https://github.com/PSStudent01/2026-cax-216.git
+   5af44b1..0475b42  main -> main
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/302-sba-version-control-simulation-rod-gaitan (main)
+$ 
