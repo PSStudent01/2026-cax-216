@@ -1,0 +1,95 @@
+
+1)//////////////////////////////////////////////////////////////////////
+Logs for 'types_and_vars.py':
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab2-data_types_variables_operators_basic_io/types_and_vars.py"
+
+Hello, my name is Rod Gaitan. I am 12 years old and 1.651 meters tall.
+
+In 5 years, I will be 17 years old.
+
+The area of a 5.5 x 2 rectangle is 11.0
+
+My initial investment of $100000 will generate a total of $103917.64 in the term of 1 year(s 
+on a CD with 0.0388 APY!
+yoohoo! yoohoo! yoohoo! yoohoo! yoohoo! 
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+
+
+2) //////////////////////////////////////////////////////////////////////////////////////
+Logs for 'simple_calculator.py':
+
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab2-data_types_variables_operators_basic_io/simple_calculator.py"
+
+Please enter the first number: 2
+Please enter the second number: 3
+Please choose operator: +
+2 + 3 = 5
+
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab2-data_types_variables_operators_basic_io/simple_calculator.py"
+
+Please enter the first number: 2
+Please enter the second number: 3
+Please choose operator: -
+2 - 3 = -1
+
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab2-data_types_variables_operators_basic_io/simple_calculator.py"
+
+Please enter the first number: 2
+Please enter the second number: 3
+Please choose operator: *
+2 * 3 = 6
+
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab2-data_types_variables_operators_basic_io/simple_calculator.py"
+
+Please enter the first number: 2
+Please enter the second number: 3
+Please choose operator: /
+2 / 3 = 0.6666666666666666
+
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab2-data_types_variables_operators_basic_io/simple_calculator.py"
+
+Please enter the first number: 2
+Please enter the second number: -3
+Please choose operator: /
+Please enter a valid input!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab2-data_types_variables_operators_basic_io/simple_calculator.py"
+
+Please enter the first number: 2
+Please enter the second number: 0
+Please choose operator: /
+Cannot devide by zero!
+
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ 
+
+3) ////////////////////////////////////////////////////////////////////////////////////////////////
+Logs for 'string_fun.py':
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab2-data_types_variables_operators_basic_io/string_fun.py"
+
+Please provide a word: hi
+2
+HI
+hihihi
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ 
+
+
