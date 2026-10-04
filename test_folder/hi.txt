@@ -1,4 +1,0 @@
-def hifunc():
- print("hello world")
-
-hifunc()
