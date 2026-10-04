@@ -1,0 +1,45 @@
+Original Code Attempts 
+
+print()
+##################################### Part 2 - User Interaction and Input ##################################################
+
+# Write a Python script simple_calculator.py:
+
+## VERSION 1: Asks the user to input two numbers (use two separate input() calls). Make sure to convert these inputs from strings to integers or floats as needed:
+num1 = int(input("Please enter the first number: ")) # takes 1st input and casts it to integer
+num2 = int(input("Please enter the second number: ")) # takes 2nd input and casts it to integer
+
+## Asks the user to choose an operation (e.g., addition, subtraction, multiplication, division). This can be a simple prompt like "Choose an operation (+, -, *, /): ":
+operator = input("Please choose operator: ") # allows you to select the operator, but in this case, it's limited to only multiplication because the logic below allows for only multiplication
+
+## Performs the chosen operation on the two numbers:
+if operator == '+':
+    sum = num1 + num2 # this calculator only performs addition.
+    print(f"{num1} + {num2} = {sum}") # Prints the result in a user-friendly way
+elif operator == '-':
+    difference = num1 - num2 # this calculator only performs substraction.
+    print(f"{num1} - {num2} = {difference}") # Prints the result in a user-friendly way
+elif operator == '*':  
+    product = num1 * num2 # this calculator only performs multiplication.
+    print(f"{num1} * {num2} = {product}") # Prints the result in a user-friendly way
+elif operator == '/':
+    quotient = num1 / num2  # this calculator only performs subtraction.
+    print(f"{num1} - {num2} = {quotient}") # Prints the result in a user-friendly way
+#else:
+print() 
+
+
+
+## VERSION 2: modified the above program to ensure the program can handle basic INVALID inputs GRACEFULLY:
+num1 = input("Please enter the first number: ") # takes 1st input but does NOT cast it to integer
+num2 = input("Please enter the second number: ") # takes 2nd input does NOT cast it to integer
+
+# if num1.isdigit() == False or num2.isdigit() == False: # this code line implements 'isdigit()' & works but goes agains DRY code
+if not num1.isdigit() or not num2.isdigit(): # # this code line implements 'isdigit()' as a better technique
+    print("Please enter a valid input!")
+else:
+    product = int(num1) * int(num2) # this calculator only performs multiplication. # it is here that we cast the input to 'int'
+
+## Prints the result in a user-friendly way. For example: "7 * 3 = 21" (assuming the user chose 7, 3, and *):
+#print(product)
+    print(f"{num1} * {num2} = {product}")
