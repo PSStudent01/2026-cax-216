@@ -1,0 +1,595 @@
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/my_first_function/hi.py"
+hello world
+didn't think i could do it huh????
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/hello_world/hello_word"
+hello world
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/other_activities/code_practice.py"
+13
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/other_activities/code_practice.py"
+13
+2.35
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/other_activities/code_practice.py"
+13
+2.35
+Hello WorldHello WorldHello World
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/other_activities/code_practice.py"
+13
+2.35
+Hello World Hello World Hello World 
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/other_activities/code_practice.py"
+13
+2.35
+Hello World, Hello World, Hello World, 
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/other_activities/code_practice.py"^C
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ ls
+ 2026-cax-216/   2026-cax-216_noDotGit/   git-practice/  'Practice Folder'/  'Production Folder'/
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ cd  2026-cax-216
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216 (main)
+$ ls
+302.5-activity-practice-pr/           302-sba-version-control-simulation-rod-gaitan/
+302-lab1-website-project-rod-gaitan/  python_in-class_activities/
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216 (main)
+$ cd python_in-class_activities
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/other_activities/code_practice.py"
+13
+2.35
+Hello World, Hello World, Hello World, 
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/other_activities/code_practice.py"
+13
+2.35
+Hello World, Hello World, Hello World, 
+444444444
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/other_activities/code_practice.py"
+13
+2.35
+Hello World, Hello World, Hello World, 
+444444444
+Traceback (most recent call last):
+  File "c:\Users\psrga\Desktop\Per Scholas Python Essentials\2026 Python Essentials\2026-cax-216\python_in-class_activities\9-21-26\other_activities\code_practice.py", line 5, in <module>
+    print('4' + 9)
+          ~~~~^~~
+TypeError: can only concatenate str (not "int") to str
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/other_activities/code_practice.py"
+13
+2.35
+Hello World, Hello World, Hello World, 
+444444444
+Traceback (most recent call last):
+  File "c:\Users\psrga\Desktop\Per Scholas Python Essentials\2026 Python Essentials\2026-cax-216\python_in-class_activities\9-21-26\other_activities\code_practice.py", line 5, in <module>
+    print('4' + 9) # generates traceback error
+          ~~~~^~~
+TypeError: can only concatenate str (not "int") to str
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/other_activities/code_practice.py"
+13
+2.35
+Hello World, Hello World, Hello World, 
+444444444
+49
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/other_activities/code_practice.py"
+13
+2.35
+Hello World, Hello World, Hello World, 
+444444444
+49
+13
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/other_activities/code_practice.py"
+13
+2.35
+Hello World, Hello World, Hello World, 
+444444444
+49
+13
+h-e-l-l-0
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/other_activities/code_practice.py"
+13
+2.35
+Hello World, Hello World, Hello World, 
+Hello World, Hello World, Hello World,  444444444
+49
+13
+h-e-l-l-0
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/other_activities/code_practice.py"
+13
+2.35
+Hello World, Hello World, Hello World, 
+Hello World, Hello World, Hello World,  444444444
+49
+13
+h-e-l-l-0
+h-e-l-
+-l-0
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/other_activities/code_practice.py"
+13
+2.35
+Hello World, Hello World, Hello World, 
+Hello World, Hello World, Hello World,  444444444
+49
+13
+h-e-l-l-0
+h-e-l-
+-l-0
+Twinkle twinkle little star, 
+How I wonder what you are! 
+Up above the world so high, 
+Like a diamond in the sky.
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/hello_world/hello_word"
+hello world
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/I-am-learning-python/I-am-learning-python.py"
+I am learning Python
+
+I am 
+learning Python
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/I-am-learning-python/I-am-learning-python.py"
+I am learning Python
+
+Damn it, 
+I am 
+learning Python
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/9-21-26/I-am-learning-python/I-am-learning-python.py"
+I am learning Python
+
+Damn it, 
+I am 
+learning Python!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../test_folder/hi.py
+        deleted:    ../test_folder/hi.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ git add .
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ git commit -m "added in-class activities for 9-21-26"
+[main f2827be] added in-class activities for 9-21-26
+ 5 files changed, 25 insertions(+)
+ create mode 100644 python_in-class_activities/9-21-26/I-am-learning-python/I-am-learning-python.py
+ create mode 100644 python_in-class_activities/9-21-26/hello_world/hello_word
+ create mode 100644 python_in-class_activities/9-21-26/other_activities/code_practice.py
+ create mode 100644 python_in-class_activities/my_first_function/hi.py
+ create mode 100644 python_in-class_activities/my_first_function/hi.txt
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../test_folder/hi.py
+        deleted:    ../test_folder/hi.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ git push
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (10/10), 1.18 KiB | 1.18 MiB/s, done.
+Total 10 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/PSStudent01/2026-cax-216.git
+   bcbcf93..f2827be  main -> main
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    9-21-26/hello_world/hello_word
+        deleted:    ../test_folder/hi.py
+        deleted:    ../test_folder/hi.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        9-21-26/hello_world/hello_world
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ git add .
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ git commit -m "fixed typo for 'hello_world' folder"
+[main a590fd6] fixed typo for 'hello_world' folder
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename python_in-class_activities/9-21-26/hello_world/{hello_word => hello_world} (100%)
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 536 bytes | 536.00 KiB/s, done.
+Total 5 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/PSStudent01/2026-cax-216.git
+   f2827be..a590fd6  main -> main
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../test_folder/hi.py
+        deleted:    ../test_folder/hi.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../351-alab1-intro-python-comp-program-rod-gaitan/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ 
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ 
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan/hello.py"
+Hello, World! Welcome to Python programming
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan/greetings-earthling-pt-3.py"
+Hello, World! 
+Welcome to Python programming.
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan/greetings-earthling-pt-3.py"
+Hello, World! 
+Welcome to Python programming.
+What is your name? Rod
+Hello Rod ! Glad to have you learning Python.
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan/greetings-earthling-pt-3.py"
+Hello, World! 
+Welcome to Python programming.
+What is your name? Rod
+HelloRod ! Glad to have you learning Python.
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan/greetings-earthling-pt-3.py"
+Hello, World! 
+Welcome to Python programming.
+What is your name? Traceback (most recent call last):
+  File "c:\Users\psrga\Desktop\Per Scholas Python Essentials\2026 Python Essentials\2026-cax-216\351-alab1-intro-python-comp-program-rod-gaitan\greetings-earthling-pt-3.py", line 3, in <module>
+    name = input("What is your name earthling? ")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:\Users\psrga\AppData\Local\Programs\Python\Python314\python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan/greetings-earthling-pt-3.py"
+bash: C:UserspsrgaAppDataLocalProgramsPythonPython314python.exe: command not found
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan/greetings-earthling-pt-3.py"
+Hello, World! 
+Welcome to Python programming.
+What is your name earthling? Rod
+Hello Rod! Glad to have you learning Python.
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan/greetings-earthling-pt-3.py"
+Hello, World! 
+Welcome to Python programming.
+
+What is your name earthling? Rod
+
+Hello Rod! Glad to have you learning Python.
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan/greetings-earthling-pt-3.py"
+
+Hello, World! 
+Welcome to Python programming.
+
+What is your name earthling? Rod
+
+Hello Rod! Glad to have you learning Python.
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan/greetings-earthling-pt-3.py"^C
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan/greetings-earthling-pt-3.py"
+
+Hello, World! 
+Welcome to Python programming.
+
+What is your name earthling? 
+
+Hello ! Glad to have you learning Python.
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan/greetings-earthling-pt-3.py"
+
+Hello, World! 
+Welcome to Python programming.
+
+What is your name earthling? &
+
+Hello &! Glad to have you learning Python.
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ l^C
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ ls
+9-21-26/  my_first_function/
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities (main)
+$ cd ..
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216 (main)
+$ ls
+302.5-activity-practice-pr/           302-sba-version-control-simulation-rod-gaitan/   python_in-class_activities/
+302-lab1-website-project-rod-gaitan/  351-alab1-intro-python-comp-program-rod-gaitan/
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216 (main)
+$ cd 351-alab1-intro-python-comp-program-rod-gaitan
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan (main)
+$ ls 
+greetings-earthling-pt-3.py  hello-pt-2.py  questions-pt-1.md
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../test_folder/hi.py
+        deleted:    ../test_folder/hi.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../test_folder/hi.py
+        deleted:    ../test_folder/hi.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ./
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan (main)
+$ git add 351-alab1-final-draft.md
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   351-alab1-final-draft.md
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../test_folder/hi.py
+        deleted:    ../test_folder/hi.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        greetings-earthling-pt-3.py
+        hello-pt-2.py
+        questions-pt-1.md
+
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan (main)
+$ git commit -m "commiting '351-alab1-final-draft.md' only, per submission instructions"
+[main b367d9d] commiting '351-alab1-final-draft.md' only, per submission instructions
+ 1 file changed, 39 insertions(+)
+ create mode 100644 351-alab1-intro-python-comp-program-rod-gaitan/351-alab1-final-draft.md
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../test_folder/hi.py
+        deleted:    ../test_folder/hi.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        greetings-earthling-pt-3.py
+        hello-pt-2.py
+        questions-pt-1.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 1.35 KiB | 1.35 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/PSStudent01/2026-cax-216.git
+   a590fd6..b367d9d  main -> main
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../test_folder/hi.py
+        deleted:    ../test_folder/hi.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        greetings-earthling-pt-3.py
+        hello-pt-2.py
+        questions-pt-1.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan (main)
+$ 
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../test_folder/hi.py
+        deleted:    ../test_folder/hi.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        351-alab1-final-draft.txt
+        greetings-earthling-pt-3.py
+        hello-pt-2.py
+        questions-pt-1.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan (main)
+$ git add 351-alab1-final-draft.txt
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   351-alab1-final-draft.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../test_folder/hi.py
+        deleted:    ../test_folder/hi.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        greetings-earthling-pt-3.py
+        hello-pt-2.py
+        questions-pt-1.md
+
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan (main)
+$ git commit -m "Added '351-alab1-final-draft.txt' rather than the .md file, per submission instructions"
+[main 5bb7840] Added '351-alab1-final-draft.txt' rather than the .md file, per submission instructions
+ 1 file changed, 39 insertions(+)
+ create mode 100644 351-alab1-intro-python-comp-program-rod-gaitan/351-alab1-final-draft.txt
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 375 bytes | 375.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/PSStudent01/2026-cax-216.git
+   b367d9d..5bb7840  main -> main
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab1-intro-python-comp-program-rod-gaitan (main)
+$ 
