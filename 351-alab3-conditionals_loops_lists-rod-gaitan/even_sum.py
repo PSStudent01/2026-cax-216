@@ -1,7 +1,7 @@
 
 # Creates script even_sum.py
 
-r''' 
+
 # 1)
 # Write a script to perform a 'for loop' that:
 ## Uses a for loop to iterate through the numbers 1 to 50.
@@ -38,7 +38,7 @@ print(f"The sum of even numbers from 1 to 50 is {even_sum}.") # positioned the p
                                                               # when the loop completes, will it print the message stated.
                                                               # If you place it WITHIN the 'While loop' or WITHIN the 'If conditional
                                                               # structure', it will execute according to each of those. 
-'''
+
 
 r'''
 Comment:

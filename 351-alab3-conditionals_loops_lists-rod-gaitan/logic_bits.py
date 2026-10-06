@@ -4,9 +4,8 @@
 ## Demonstrates bitwise operators (&, |, ^, ~, <<, >>) on two small integers (for example, 5 and 3). Print the results in binary form using bin() to show what is happening at the bit level.
 # This task is for exploration and will not be heavily graded; it is to encourage you to play with these operators and see their effects.
 
-###################################### Pre-approval Application: ##########################################
+###################################### MY DRAFT: ##########################################
 
-r'''  
 age_approval  = input("Are you over 21 or over?  ") # takes input and stores as string
 residency_approval = input("Are you a resident of NYC?  ")  # takes input and stores as string
 
@@ -25,15 +24,13 @@ elif residency_approval in ('n', 'N', 'no', 'NO', 'No'):
     residency_approval = False
 # else:
     # print("Invalid input, please try again!")
-'''
 
-r''' 
+
 # Scenario where BOTH answers must be True for qualification:
 if age_approval == True and residency_approval == True: # Notice, evaluating specific boolean vales here for both variables
     print("Subject qualifies for the next vetting stage.")
 else:
     print("Subject is disqualified from moving forward in the vetting process.")
-'''
 
 r''' 
 # Scenario where AT LEAST 1 answer must be True for qualification:
@@ -41,9 +38,9 @@ if age_approval or residency_approval:  # Here I used 'truthy' concept for evalu
     print("Subject qualifies for the next vetting stage.")
 else:
     print("Subject is disqualified from moving forward in the vetting process.")
-''' 
+'''
 
-r''' 
+r'''
 # Scenario where user answers yes to NOT being 21 or over:
 print("Not 21 or over (not):", not age_approval) # if user answers yes here, it gets converted to False 
 
@@ -51,9 +48,21 @@ print("Not 21 or over (not):", not age_approval) # if user answers yes here, it 
 print("Not an NYC resident (not):", not residency_approval) #  if user answers yes here, it gets converted to False 
 ''' 
 
-# PENDING ACTIONS:
-# - try to consolodate all 3 case scenarios, so that I don't have to comment out all other scenarios while running one scenario
+############################################ AI Draft: ##################################################
 
+r''' 
+# - try to consolodate all 3 case scenarios, so that I don't have to comment out all other scenarios while running one scenario
+age_input = input("Are you 21 or over? (y/n): ")
+residency_input = input("Are you a resident of NYC? (y/n): ")
+
+age_approval = age_input.strip().lower() in ("y", "yes")
+residency_approval = residency_input.strip().lower() in ("y", "yes")
+
+print("Both (and):", age_approval and residency_approval)
+print("At least one (or):", age_approval or residency_approval)
+print("Not 21 or over (not):", not age_approval)
+print("Not an NYC resident (not):", not residency_approval)
+'''
 
 ###################################### Analysis of bits for 5 and 3: ##########################################
 
