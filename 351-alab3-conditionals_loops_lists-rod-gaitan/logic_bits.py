@@ -7,7 +7,9 @@
 ###################################### MY DRAFT: ##########################################
 
 age_approval  = input("Are you over 21 or over?  ") # takes input and stores as string
+print()
 residency_approval = input("Are you a resident of NYC?  ")  # takes input and stores as string
+print()
 
 # Converts the user's typed answer into a True or False boolean value for 'age_approval'
 if age_approval in ('y', 'Y', 'yes', 'YES', 'Yes'): # Checks for amost every possible spelling of 'yes'
@@ -28,9 +30,9 @@ elif residency_approval in ('n', 'N', 'no', 'NO', 'No'):
 
 # Scenario where BOTH answers must be True for qualification:
 if age_approval == True and residency_approval == True: # Notice, evaluating specific boolean vales here for both variables
-    print("Subject qualifies for the next vetting stage.")
+    print("Decision: Subject qualifies for the next vetting stage.")
 else:
-    print("Subject is disqualified from moving forward in the vetting process.")
+    print("Decision: Subject is disqualified from moving forward in the vetting process.")
 
 r''' 
 # Scenario where AT LEAST 1 answer must be True for qualification:

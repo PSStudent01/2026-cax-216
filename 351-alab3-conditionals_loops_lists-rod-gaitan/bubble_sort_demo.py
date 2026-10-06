@@ -11,12 +11,15 @@
 # bubble_sort_demo.py
 
 nums = [64, 25, 12, 22, 11]
-print("Original list:", nums)  
+print("Original list:", nums)   # prints original list
 
-for i in range(len(nums) - 1):  # outer loop: one pass per iteration
+for i in range(len(nums) - 1):  # outer loop: one pass per iteration.
+                                # 1) counts the number of numbers, minus 1, then for every number in that range, it does the following...
     for j in range(len(nums) - 1 - i):  # inner loop: compare adjacent pairs
-        if nums[j] > nums[j + 1]:
-            nums[j], nums[j + 1] = nums[j + 1], nums[j]  # swap
+                                        # 2) counts the number of numbers, minus 1, minus that number then for every number in that range, it does the following...
+        if nums[j] > nums[j + 1]: # If the left neighbor is bigger than the right neighbor,
+                                  # the pair is out of order and needs to be swapped.
+            nums[j], nums[j + 1] = nums[j + 1], nums[j]  # Swap the two values in one line (Python's tuple swap).
     print(f"After pass {i + 1}:", nums)  # inside outer loop, outside inner loop
 
-print("Sorted list:", nums)
+print("Sorted list:", nums)    # prints sorted list

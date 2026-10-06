@@ -1,0 +1,194 @@
+
+#################################### Logs for 'grade_checker.py' #####################################################
+ 
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/grade_checker.py"
+Please enter your score(0-100): 100
+Your grade is: A
+Congrats, you've passed the course!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/grade_checker.py"
+Please enter your score(0-100): 95
+Your grade is: A
+Congrats, you've passed the course!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/grade_checker.py"
+Please enter your score(0-100): 90
+Your grade is: A
+Congrats, you've passed the course!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/grade_checker.py"
+Please enter your score(0-100): 89
+Your grade is: B
+Congrats, you've passed the course!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/grade_checker.py"
+Please enter your score(0-100): 85
+Your grade is: B
+Congrats, you've passed the course!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/grade_checker.py"
+Please enter your score(0-100): 80
+Your grade is: B
+Congrats, you've passed the course!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/grade_checker.py"
+Please enter your score(0-100): 79
+Your grade is: C
+Congrats, you've passed the course!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/grade_checker.py"
+Please enter your score(0-100): 75
+Your grade is: C
+Congrats, you've passed the course!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/grade_checker.py"
+Please enter your score(0-100): 70
+Your grade is: C
+Congrats, you've passed the course!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/grade_checker.py"
+Please enter your score(0-100): 69
+Your grade is: D
+Unfortunately, you'll need to retake the course!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/grade_checker.py"
+Please enter your score(0-100): 65
+Your grade is: D
+Unfortunately, you'll need to retake the course!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/grade_checker.py"
+Please enter your score(0-100): 60
+Your grade is: D
+Unfortunately, you'll need to retake the course!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/grade_checker.py"
+Please enter your score(0-100): 55
+Your grade is: F
+Unfortunately, you'll need to retake the course!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/grade_checker.py"
+Please enter your score(0-100): 50
+Your grade is: F
+Unfortunately, you'll need to retake the course!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/grade_checker.py"
+Please enter your score(0-100): 40
+Your grade is: F
+Unfortunately, you'll need to retake the course!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/grade_checker.py"
+Please enter your score(0-100): 30
+Your grade is: F
+Unfortunately, you'll need to retake the course!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/grade_checker.py"
+Please enter your score(0-100): 20
+Your grade is: F
+Unfortunately, you'll need to retake the course!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/grade_checker.py"
+Please enter your score(0-100): 10
+Your grade is: F
+Unfortunately, you'll need to retake the course!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/grade_checker.py"
+Please enter your score(0-100): 0
+Your grade is: F
+Unfortunately, you'll need to retake the course!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+
+
+
+#################################### Logs for 'even_sum.py' #####################################################
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/even_sum.py"
+The sum of even numbers from 1 to 50 is 650.
+The sum of even numbers from 1 to 50 is 650.
+
+
+#################################### Logs for 'list_operations.py' #####################################################
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/list_operations.py"
+
+1) Created list of at least 5 integers: int_list = [3, 5, 6, 2, 7, 9, 1, 8]
+
+2) This is the original list: [3, 5, 6, 2, 7, 9, 1, 8]
+
+3) This is the sorted version without modifying the original list: [1, 2, 3, 5, 6, 7, 8, 9]
+
+3a) This is the original list again, to show that it still remains intact: [3, 5, 6, 2, 7, 9, 1, 8]
+
+4) This list is now PHYSICALLY sorted, after applying the '.sort()' method to the list: [1, 2, 3, 5, 6, 7, 8, 9]
+
+4a) This is the original list again, to show that its sort order has in fact been modified: [1, 2, 3, 5, 6, 7, 8, 9]
+
+5) This is the original list again, but this time showing the appended number of '100': [1, 2, 3, 5, 6, 7, 8, 9, 100]
+
+6) This is the original list again, but this time WITHOUT the number '100': [1, 2, 3, 5, 6, 7, 8, 9]
+
+7) This is the original list again, but this time in REVERSED sort order: [9, 8, 7, 6, 5, 3, 2, 1]
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ 
+
+#################################### Logs for 'bubble_sort_demo.py' #####################################################
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/bubble_sort_demo.py"
+Original list: [64, 25, 12, 22, 11]
+After pass 1: [25, 12, 22, 11, 64]
+After pass 2: [12, 22, 11, 25, 64]
+After pass 3: [12, 11, 22, 25, 64]
+After pass 4: [11, 12, 22, 25, 64]
+Sorted list: [11, 12, 22, 25, 64]
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+
+
+#################################### Logs for 'logic_bits.py' #####################################################
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab3-conditionals_loops_lists-rod-gaitan/logic_bits.py"
+Are you over 21 or over?  y
+
+Are you a resident of NYC?  n
+
+Subject is disqualified from moving forward in the vetting process.
+
+--- Bitwise operators ---
+x = 5 -> 0b101
+y = 3 -> 0b11
+x & y  = 1 -> 0b1
+x | y  = 7 -> 0b111
+x ^ y  = 6 -> 0b110
+~x     = -6 -> -0b110
+x << 1 = 10 -> 0b1010
+x >> 1 = 2 -> 0b10
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+
+
+
+
