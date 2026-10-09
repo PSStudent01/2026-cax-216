@@ -1,0 +1,121 @@
+=============================== Logs ================================================== 
+
+###################################################################################################################################################################################################################
+basic_functions.py:
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab4-functions_tuples_dictionaries_exceptions-rod-gaitan/basic_functions.py"
+1)
+Hello, Rod Gaitan! Welcome!
+Hello! Welcome!
+
+2)
+11
+11
+The current total sum of 11 multiplied by 2 will give us twice as much. In this case it will give us: 22
+
+3)
+Is the number 2 an even number? True
+Is the number 3 an even number? False
+
+###################################################################################################################################################################################################################
+calc_with_functions.py:
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab4-functions_tuples_dictionaries_exceptions-rod-gaitan/calc_with_functions.py"
+Enter first number: 3
+Enter operation sign: +
+Enter second number: 8
+11.0
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab4-functions_tuples_dictionaries_exceptions-rod-gaitan/calc_with_functions.py"
+Enter first number: 3
+Enter operation sign: -
+Enter second number: 8
+-5.0
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab4-functions_tuples_dictionaries_exceptions-rod-gaitan/calc_with_functions.py"
+Enter first number: 3
+Enter operation sign: *
+Enter second number: 8
+24.0
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab4-functions_tuples_dictionaries_exceptions-rod-gaitan/calc_with_functions.py"
+Enter first number: 3
+Enter operation sign: /
+Enter second number: 8
+0.375
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab4-functions_tuples_dictionaries_exceptions-rod-gaitan/calc_with_functions.py"
+Enter first number: 3
+Enter operation sign: /
+Enter second number: 0
+Error: cannot divide by zero!
+
+###################################################################################################################################################################################################################
+tuples_dicts.py:
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab4-functions_tuples_dictionaries_exceptions-rod-gaitan/tuples_dicts.py"
+1) Create a tuple months containing the names of the twelve months:
+('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December')
+
+2) Print the first and last month from the tuple:
+January
+December
+
+3) Attempt to modify the tuple inside a try/except block, to demonstrate that tuples are immutable.
+Tuples are immutable, error: 'tuple' object does not support item assignment
+
+4) Create a dictionary students where keys are student names and values are their grades:
+{'Rob': 75, 'Mary': 85, 'Mike': 98, 'Peter': 52, 'Emily': 75}
+
+5) Add a new student and grade to the dictionary, then print ALL student names and grades:
+{'Rob': 75, 'Mary': 85, 'Mike': 98, 'Peter': 52, 'Emily': 75, 'Martin': 92}
+
+6) Update one of the existing student’s grades, then print the updated entry:
+Rob: 78
+
+7) Use a loop to print out each student's name and grade in a formatted way, e.g., 'Alice: 90':
+Rob: 78
+Mary: 85
+Mike: 98
+Peter: 52
+Emily: 75
+Martin: 92
+
+
+###################################################################################################################################################################################################################
+data_processing.py:
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab4-functions_tuples_dictionaries_exceptions-rod-gaitan/data_processing.py"
+80.0
+Warning: cannot calculate an average of an empty tuple.
+Average: not available (no grades to average)
+
+The average grade for Math is 80.0
+The average grade for Science is 83.0
+The average grade for History is 75.16666666666667
+Warning: cannot calculate an average of an empty tuple.
+The average grade for EdgeCase1 is not available (no grades).
+
+
+###################################################################################################################################################################################################################
+exception_demo.py:
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/351-alab4-functions_tuples_dictionaries_exceptions-rod-gaitan/exception_demo.py"
+5.0
+Division operation completed
+2.0
+Division operation completed
+Warning: Cannot divide by zero
+Division operation completed
+Warning: Cannot divide by zero
+Division operation completed
+Warning: Cannot divide by zero
+Division operation completed
+A generic exception was caught: invalid literal for int() with base 10: 'abc'
+
+###################################################################################################################################################################################################################
