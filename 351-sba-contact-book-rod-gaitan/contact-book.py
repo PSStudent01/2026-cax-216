@@ -117,7 +117,7 @@ def search_contact(contacts):
             print("Name not found")
 '''
 
-# # Attempt 3 - Completed:
+# Attempt 3 - Completed:
 def search_contact(contacts): # defining the function
     search = input("Enter a name to search: ").strip() # takes in string input from a user, while removing any whitespaces from the string.
     found = False # is a flag as a variable that remembers whether anything matched. Starting assuming nothing did.
@@ -127,9 +127,23 @@ def search_contact(contacts): # defining the function
             print(f"{name}: {contacts[name]}") # ...it prints the contact key (name) and the contact value (phone #)
             found = True # this flips the flag whenever a match is printed. There’s no break because we want to check every contact.
 
-    if not found:
-        print("No matching contact found.")
+    if not found: # sits at the same indentation as the 'for', so it runs once, after the loop finishes.
+        print("No matching contact found.") # this is the message that renders as output is no matches found
 
+# 4) DELETING CONTACTS
+# Defining 'delete_contact()' to remove a contact by name
+# Attempt 1 - Completed:
+def delete_contact(contacts):  # defining the function
+    name = input("Enter name to be removed: ").strip() # takes in string input from a user, while removing any whitespaces from the string.
+
+    #for name in contacts: # a loop does not apply when looking to delete a particular item from a dictionary, thus causing errors
+    if name in contacts: # if the name entered by the user, matches the 'name' key in the 'contacts' dictionary...
+        # contacts[name].pop
+        contacts.pop(name) #...deletes the entire contact from the dictionary/list
+        # del contacts[name] # as an alternative...also deletes the entire contact from the dictionary/list
+        print(f"{name} has been removed")  # this is the message that renders as output to confirm that contact item ha sbeen removed
+    else: # otherwise, if name to be deleted doesnot exist...
+        print("That contact does not exist.") # this is the message that renders as output is no matches found
 
 
 # 1B) Defining a main loop program to run the program and keep the contacts dictionary in one place. 
@@ -158,11 +172,13 @@ def main(): # 'main()' function. It represents the whole app
             # print("Search contact selected") # Replaced with conditional branch below.
         elif selection == "3": # 3B)CALL TO 'search_contacts(contacts)'so that if selection 3 pressed...
             search_contact(contacts) #...call to function is executed, which allows you to search contacts for a full/partial name
-        elif selection == "4":
-            print("Delete contact selected")
-        elif selection == "5":
-            print("Goodbye!")
-            break # breaks the 'while' loop to prevent it from looping endlessly, since there is no increment/de-crement counter
+        # elif selection == "4":
+            # print("Delete contact selected")
+        elif selection == "4":  # 4B)CALL TO 'delete_contact(contacts)'so that if selection 4 pressed...
+            delete_contact(contacts) #...call to function is executed, which allows you to deleted the name of interest
+        elif selection == "5": # 5A) Otherwise, if user selects option 5....
+            print("Goodbye!") # this is the message that renders as output,
+            break # breaks out of the 'while' loop to prevent it from looping endlessly, since there is no increment/de-crement counter
                   # to count towards an end
         else:
             print("Invalid choice. Please enter a number from 1 to 5.") # if all of the above elif conditions retuns 'False',
@@ -207,6 +223,9 @@ happen.
 # 
 In 3A), 'found = False'; 'found = True' flags Right are used here because 'break' would be wrong for this job, at least if you want partial matching to show every match.
 What break does inside a for loop: it stops the loop immediately, so the remaining items are never checked.
+#
+break jumps out of the while True: loop. Once the loop ends, main() has nothing left to run, so the function finishes, and since main() was the last line of the file, 
+the program ends.
 '''
 
 #============================= PARTS TO CONSIDER REPLACING INTO CODE AI Verified ==============================#
@@ -238,4 +257,19 @@ def search_contact(contacts): # defining the function
 
     if not found:
         print("No matching contact found.")
+'''
+
+r'''
+# 4) DELETING CONTACTS
+# Defining 'delete_contact()' to remove a contact by name
+def delete_contact(contacts):
+    """Ask for a name and delete that contact if it exists."""
+    name = input("Enter the name of the contact to delete: ").strip()
+
+    if name in contacts:
+        del contacts[name]
+        print(f"{name} has been deleted.")
+    else:
+        print("That contact does not exist.")
+
 '''
