@@ -15,9 +15,6 @@ Enter your choice (1-5):
 
 Invalid choice. Please enter a number from 1 to 5.
 
-###############################################################################################################
-[add_contact(contacts)]
-
 #
 {Pressed option 1, the pressed ENTER and got 'Name cannot be empty.'}
 Contact Book Menu:
