@@ -1,0 +1,14 @@
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/bonus-mission-labs/the-bouncer/the-bouncer.py"
+Enter your age: 17
+Access denied. Too young!
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/bonus-mission-labs/the-bouncer/the-bouncer.py"
+Enter your age: 19
+You can come in, but no drinking! 🚫🍷
+
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/python_in-class_activities/bonus-mission-labs/the-bouncer/the-bouncer.py"
+Enter your age: 21
+Welcome in! Enjoy your night.
