@@ -1,0 +1,51 @@
+#
+[for 'builtin_usage.py']
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/356-alab1-modules_packages_pip-rod-gaitan (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/356-alab1-modules_packages_pip-rod-gaitan/builtin_usage.py"
+Random Number: 91
+Square root of 91: 9 (floored)
+Operating System: Windows
+Python Version: 3.14.7
+
+#
+[for 'utilities.py']
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/356-alab1-modules_packages_pip-rod-gaitan (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/356-alab1-modules_packages_pip-rod-gaitan/mypackage/utilities.py"
+Hello Rod!
+120
+
+#
+[for 'use_utilities.py']
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/356-alab1-modules_packages_pip-rod-gaitan (main)
+$ C:/Users/psrga/AppData/Local/Programs/Python/Python314/python.exe "c:/Users/psrga/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/356-alab1-modules_packages_pip-rod-gaitan/use_utilities.py"
+Hello Rod!
+The factorial of 5 is 120
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+[ for..
+1) Choose a third-party package (for example, colorama or requests).
+2) Using PIP, install the selected package.]
+#
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/356-alab1-modules_packages_pip-rod-gaitan (main)
+$ python -m pip install colorama
+Collecting colorama
+  Downloading colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Downloading colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Installing collected packages: colorama
+Successfully installed colorama-0.4.6
+
+[ for verifying if the package (in this case 'colorama') was in fact installed]
+#
+psrga@LAPTOP-KGMU5T75 MINGW64 ~/Desktop/Per Scholas Python Essentials/2026 Python Essentials/2026-cax-216/356-alab1-modules_packages_pip-rod-gaitan (main)
+$ python -m pip show colorama
+Name: colorama
+Version: 0.4.6
+Summary: Cross-platform colored terminal text.
+Home-page: https://github.com/tartley/colorama
+Author: 
+Author-email: Jonathan Hartley <tartley@tartley.com>
+License: 
+Location: C:\Users\psrga\AppData\Local\Programs\Python\Python314\Lib\site-packages
+Requires: 
+Required-by: 
