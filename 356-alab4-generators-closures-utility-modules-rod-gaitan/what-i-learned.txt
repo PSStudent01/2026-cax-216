@@ -1,0 +1,87 @@
+1. Generators and yield
+A generator produces values one at a time, only when asked (lazy evaluation), so it saves memory.
+A function containing yield returns a generator object when called. The body doesn’t run until you iterate.
+print(fun(10)) shows <generator object fun at 0x...>, not the numbers. To get values, use a for loop, list(...), next(...), or print(*fun(10)).
+return i hands back a single int, and looping over an int gives TypeError: 'int' object is not iterable. You only see that error when something actually iterates the result.
+next() raises StopIteration when the generator is empty, and a generator can only be consumed once.
+range(10) is its own type that prints as range(0, 10). It isn’t a generator, though it also produces values on demand.
+'yield' outside function is a SyntaxError caused by yield sitting outside a def, often from indentation or a stray line.
+2. Comprehensions
+Pattern: [expression for item in iterable if condition].
+The expression comes first, and a lone if filter goes at the end.
+if/else goes at the front, since it transforms every item.
+The if should test the loop variable (item), not the whole collection.
+Swap [] for () to get a generator expression.
+You walked through the progression: for loop, list comprehension, generator expression.
+3. Lambda and sorting
+lambda x: expression is a small, unnamed one-line function.
+sorted(students, key=lambda s: s[1]) sorts by the second item of each tuple.
+Lambdas are handy when passed into another call, like the on_interact example.
+4. Lists vs. tuples
+Lists are mutable. Tuples are immutable, so you replace them instead of editing them.
+Tuples suit fixed records, (x, y) pairs, multiple return values, and dictionary keys.
+Immutability is not security or an audit trail, but the “never overwrite, append a new record” idea is how change history works.
+5. File paths and open()
+Windows paths: doubled backslashes ("\\dir\\file"), forward slashes ("c:/dir/file"), or a raw string (r"c:\dir\file"). Linux uses / paths.
+Syntax: open(file_name, mode=..., encoding=...). Modes include r, w, a, and x.
+You must store the result (f = open(...)) and print the text to see anything.
+A relative path depends on the terminal’s working directory, not the script’s location. The reliable fix is Path(__file__).parent / 'README.txt'.
+A leading / means the root of the drive.
+Always specify encoding='utf-8' for text files. Windows has historically not defaulted to UTF-8, and binary mode takes no encoding.
+6. Predefined streams
+sys.stdin, sys.stdout, and sys.stderr are open before your program starts.
+input() reads from stdin, print() writes to stdout, and errors go to stderr.
+sys.stdin.read() takes no prompt, which is why input("Enter name: ") exists.
+7. Modules, classes, methods, and attributes
+from datetime import date: datetime is the module and date is a class inside it.
+Methods need (), like date.today(). Attributes don’t, like .year, .month, and .day. Parentheses depend on what the thing is, not where it’s accessed from.
+Use dir(), help(), callable(), and type() to explore what’s available.
+Shadowing: naming your own file datetime.py (or time.py, random.py, and so on) breaks the standard library import. Rename the file and delete __pycache__.
+8. Other tools
+time.sleep(seconds) pauses the program.
+calendar.setfirstweekday(...) is a setting that returns nothing, so you print calendar.month(2026, 10) to see its effect.
+print(*items), end=" ", and sep=", " control horizontal output.
+pyperclip is third-party and needs pip install (use python -m pip with your interpreter).
+Big takeaways
+No output usually means nothing asked for output. Functions that do something (sleep, close, setfirstweekday) return nothing, so you need print() to see results.
+Errors usually depend on context. The TypeError needs a loop, and the FileNotFoundError depends on the working directory.
+Read error messages closely. The datetime import error told you the exact cause.
+
+/////////////////////////////// More Condensed: /////////////////////////////////////////
+
+I'm assuming DISC means a discussion post, so here's a first-person version in paragraph form that you can edit to match your voice.
+
+---
+
+**What I Learned This Week**
+
+This week I learned how Python handles data efficiently and how it interacts with files and the operating system. I started with **generators**. A function that uses `yield` returns a generator object instead of running all at once, and it produces values one at a time only when asked (lazy evaluation). This saves memory compared to building a full list. I also learned that printing a generator only shows the object, so I need a `for` loop, `list()`, `next()`, or `print(*gen)` to see the values. A generator can only be used once, and `next()` raises `StopIteration` when it runs out.
+
+I also practiced **comprehensions**, which follow the pattern `[expression for item in iterable if condition]`. Swapping the square brackets for parentheses turns a list comprehension into a generator expression. Along with that, I learned about **lambda functions**, which are small unnamed functions often used with `sorted()`, such as `key=lambda s: s[1]`, to sort a list of tuples by grade. That led me to the difference between **lists and tuples**: lists can be changed, while tuples cannot, so a "change" means creating a new tuple. Tuples work well for fixed records like `(name, grade)`.
+
+For **files**, I learned that Windows paths can be written with doubled backslashes, forward slashes, or a raw string, while Linux uses forward slashes. When using `open(file_name, mode, encoding)`, I need to store the result in a variable and print it to see anything. I also learned that relative paths depend on the terminal's working directory, not where the script is saved, so `Path(__file__).parent` is a more reliable approach. It's good practice to always specify `encoding='utf-8'` for text files, since default encodings differ between operating systems.
+
+I also learned about the **predefined streams** (`sys.stdin`, `sys.stdout`, and `sys.stderr`), which are already open when a program starts and are what `input()` and `print()` use behind the scenes. Finally, I worked with **modules and classes**. In `from datetime import date`, `datetime` is the module and `date` is a class. Methods like `date.today()` need parentheses, while attributes like `.year` do not. I can explore what's available using `dir()`, `help()`, and `callable()`. I also hit a real-world problem when naming my own file `datetime.py` shadowed the standard library module, which taught me not to name files after built-in modules.
+
+The biggest takeaways were that no output usually means nothing was told to display it, that errors often depend on context like loops or the working directory, and that reading the error message carefully usually points to the cause.
+
+---
+
+If your DISC has a word limit or specific prompt, tell me and I can trim it or reshape it to fit.
+
+/////////////////////////////// More Condensed: /////////////////////////////////////////
+
+
+What I Learned This Week
+
+This week I learned a bunch of new things in Python, and some of them tripped me up at first.
+
+First, I learned about generators. A normal list makes all its values at once, but a generator makes them one at a time, only when you ask for them. That saves memory. The weird part is that if you print a generator, you don’t see the numbers, you just see something like <generator object ...>. To actually see the values, you have to loop over it or use list().
+
+I also learned about comprehensions, which are a shortcut for writing a loop in one line. If you use () instead of [], you get a generator. I learned about lambda too, which is a tiny function with no name, and I saw how it can be used with sorted(). I also found out that tuples can’t be changed like lists can.
+
+Working with files was tricky. I learned that Windows paths need special handling because of the backslash, and that I should always add encoding='utf-8' when opening a text file. My code kept saying “file not found” even though the file was in the same folder. I found out that Python looks for the file based on where the terminal is running, not where my script is saved.
+
+I also learned that datetime is a module and date is a class inside it. Methods like date.today() need parentheses, but things like .year don’t. At one point my code broke because I named my own file datetime.py, and Python used my file instead of the real one. Now I know not to name files after built-in modules.
+
+My biggest takeaway is that when my code shows nothing, it usually means I never told Python to print it. Reading the error me
