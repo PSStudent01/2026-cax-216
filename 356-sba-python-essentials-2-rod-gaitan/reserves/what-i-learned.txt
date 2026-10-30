@@ -1,0 +1,392 @@
+
+1st Real Bug:
+- A: empty title (just Enter):
+
+==================== Task Manager ==========================: 
+            (A) Add a new task.
+            (C) Mark a task as completed.
+            (D) Delete a task.
+            (L) List all tasks. 
+            (Q) Quit.
+            
+Select menu option: a
+Enter task title: 
+Enter task due date: 2026-10-30
+
+Task '' added.
+
+==================== Task Manager ==========================: 
+            (A) Add a new task.
+            (C) Mark a task as completed.
+            (D) Delete a task.
+            (L) List all tasks. 
+            (Q) Quit.
+            
+Select menu option: l
+0: [-] Task: Task 1 (due 2025-01-01) OVERDUE
+1: [X] Task: Task 2  (due 2026-11-15) 
+2: [-] Task: Task 3 (due None) 
+3: [-] Task: Task 4 (due 2026-10-29) 
+4: [-] Task: Task 6 - Persistance Demo (due None) 
+5: [-] Task:  (due 2026-10-30) 
+
+==================== Task Manager ==========================: 
+            (A) Add a new task.
+            (C) Mark a task as completed.
+            (D) Delete a task.
+            (L) List all tasks. 
+            (Q) Quit.
+            
+Select menu option: 
+
+=================:
+That’s the first real bug, and it matches what I expected: a blank title created a task (Task '' added.), and L shows it as an empty entry at index 5. A grader would count that against Exception Handling, so it’s worth the two-line fix.
+
+In todolist.py, add this right under the def add_task(...) line:
+
+%
+    if not title.strip():
+        print("\nError: task title cannot be empty.")
+        return None
+
+
+///////////////////////////////////////////////////////////////////////////////////
+
+2nd Real Bug:
+11)
+- C: negative index (-1). This confirms the bug. This one can wrongly succeed in Python, so it should be checked.
+BUG!!!!!!!!!!!!!! ================================================================================:
+
+==================== Task Manager ==========================: 
+            (A) Add a new task.
+            (C) Mark a task as completed.
+            (D) Delete a task.
+            (L) List all tasks. 
+            (Q) Quit.
+            
+Select menu option: c
+0: [X] Task: Task 1  (due 2025-01-01) OVERDUE
+1: [X] Task: Task 2  (due 2026-11-15) 
+2: [-] Task: Task 3 (due None) 
+3: [-] Task: Task 4 (due 2026-10-29) 
+4: [-] Task: Task 6 - Persistance Demo (due None) 
+Number of the task to mark completed: -1
+
+Task 'Task 6 - Persistance Demo' marked as completed.
+
+==================== Task Manager ==========================: 
+            (A) Add a new task.
+            (C) Mark a task as completed.
+            (D) Delete a task.
+            (L) List all tasks. 
+            (Q) Quit.
+            
+Select menu option: l
+0: [X] Task: Task 1  (due 2025-01-01) OVERDUE
+1: [X] Task: Task 2  (due 2026-11-15) 
+2: [-] Task: Task 3 (due None) 
+3: [-] Task: Task 4 (due 2026-10-29) 
+4: [X] Task: Task 6 - Persistance Demo  (due None) 
+
+==================== Task Manager ==========================: 
+            (A) Add a new task.
+            (C) Mark a task as completed.
+            (D) Delete a task.
+            (L) List all tasks. 
+            (Q) Quit.
+            
+Select menu option: 
+
+{This confirms the bug. -1 was accepted and silently marked the last task (Task 6) as completed, with a success message, when it should have been rejected}
+
+FIX !!!!!!!!!!!! ==================================:
+The fix goes in both 'complete_task' and 'delete_task'. Add this as the first line inside each try:
+
+python
+def complete_task(task_list, index):
+    try:
+        if index < 0:
+            raise IndexError
+        task = task_list[index]
+        ...
+python
+def delete_task(task_list, index):
+    try:
+        if index < 0:
+            raise IndexError
+        task = task_list[index]
+        ...
+
+
+/////////////////////////////////////////////////////////////////////////////
+
+20)
+- Q answering with an invalid save answer (e.g. maybe), if your code handles it.
+==================== Task Manager ==========================: 
+            (A) Add a new task.
+            (C) Mark a task as completed.
+            (D) Delete a task.
+            (L) List all tasks. 
+            (Q) Quit.
+            
+Select menu option: q
+Save tasks before quitting? (Y/N): maybe
+Good Bye! 
+
+{- This works as far as nothing crashing, but "maybe" was treated as "no". It printed Good Bye! with no message about saving, so any unsaved changes were silently thrown away.The rubric needs the program not to crash on bad input, and it didn’t.
+- BUG !!! Invalid save answer 'maybe' is treated as No; program exits without crashing.}
+
+You have two options.
+
+Option 1: leave it and note it. The rubric needs the program not to crash on bad input, and it didn’t. Add a note like {Invalid save answer 'maybe' is treated as No; program exits without crashing.}. That’s honest and acceptable.
+
+Option 2: re-ask until the answer is valid. Stronger for Exception Handling and UI points. I haven’t seen your main.py, so I can’t say exactly where it goes. The idea is to replace the single input(...) for the save prompt with a loop:
+
+python
+while True:
+    answer = input("Save tasks before quitting? (Y/N): ").strip().lower()
+    if answer == "y":
+        save_tasks(task_list)
+        print("Tasks saved!")
+        break
+    elif answer == "n":
+        print("Tasks not saved.")
+        break
+    else:
+        print("Please enter Y or N.")
+print("Good Bye!")
+
+Your variable names may differ (task_list, the exact print text), so match yours. If you paste the quit section of main.py, I’ll show you exactly where it slots in.
+
+If you do Option 2, redo this capture with maybe first, then n, so the log shows the re-prompt:
+
+Save tasks before quitting? (Y/N): maybe
+Please enter Y or N.
+Save tasks before quitting? (Y/N): n
+Tasks not saved.
+Good Bye!
+
+Either way, Run 3 is then done. Next is Run 4 (file errors), where I expect the real crashes: a malformed row in tasks.csv, an empty file, and a read-only file when saving. Back up tasks.csv first (cp tasks.csv tasks_backup.csv), and tell me which option you picked for the maybe case before we start.
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+3)
+- Corrupted line: edit 'tasks.txt' so one line is malformed (missing a field, bad date, or bad completed value), start the program, and show the friendly message.
+
+- Updated 'tasks.csv' file as follows:
+
+hjlkhjlk!E%$&@%@$
+    Y&&*(&
+    )
+####################
+############
+lkj
+
+- Ran the script and got:
+Traceback (most recent call last):
+  File "c:\Users\psrga\Desktop\Per Scholas Python Essentials\2026 Python Essentials\2026-cax-216\356-sba-python-essentials-2-rod-gaitan\main.py", line 153, in <module>
+    main() # calls the function 'main()' to action.
+    ~~~~^^
+  File "c:\Users\psrga\Desktop\Per Scholas Python Essentials\2026 Python Essentials\2026-cax-216\356-sba-python-essentials-2-rod-gaitan\main.py", line 37, in main
+    task_list = load_tasks() # % 2) Replace the above line. This is done at the very end as part of connecting to the "file loading process"
+  File "c:\Users\psrga\Desktop\Per Scholas Python Essentials\2026 Python Essentials\2026-cax-216\356-sba-python-essentials-2-rod-gaitan\todolist.py", line 97, in load_tasks
+    title, duedate, completed = row # assign row(aka item) into title, duedate, completed
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 1)
+
+
+[[[
+That’s the crash I predicted: ValueError: not enough values to unpack (expected 3, got 1) at title, duedate, completed = row in load_tasks. A corrupted file kills the program before the menu appears, so this is worth fixing. Keep this traceback in your log as the “before” capture.
+
+The fix, in todolist.py, inside load_tasks. Replace the body of for row in csv.reader(file): (everything from title, duedate, completed = row down to task.completed = ...) with this. It must stay indented inside the for:
+
+python
+                    if not row:
+                        continue
+                    if len(row) != 3:
+                        print(f"Skipping malformed line: {row}")
+                        continue
+                    title, duedate, completed = row
+                    if duedate == "":
+                        duedate = None
+                    task = add_task(task_list, title, duedate)
+                    if task is None:
+                        continue
+                    task.completed = (completed == 'True')
+
+Check the indentation against your existing for line. The new lines line up with where title, duedate, completed = row sits now (20 spaces in your file).
+
+Then re-test:
+
+Leave the junk in tasks.csv, and run cat tasks.csv first.
+Start the program. You should see a Skipping malformed line: [...] message for each junk line, then the menu, with no traceback.
+Press L. Expect No tasks found.
+Quit with n. Don’t answer y, since that would overwrite the junk file with an empty one (fine, but you’d lose the evidence).
+
+Two side effects to expect:
+
+add_task prints Task '...' added. for every row it loads. With the fix you’ll see that during startup for any valid row. If you’d rather not, say so and I’ll show the quiet flag.
+A row with 3 fields but a bad date, like Bad date,2025-13-45,False, goes through the task is None check. It’s a separate path, so test it too: put just that line in tasks.csv, start the program, and you should see the date error and then a normal menu.
+
+Paste the post-fix run when you have it.  
+
+PENDING:
+Also note. Each case takes a different path through load_tasks:
+Missing field (or junk): this is the len(row) != 3 check, and your junk file tested it. Done.
+Bad date, like Bad date,2025-13-45,False: this row has three fields, so it passes the length check and your junk file never reached it. It’s a separate path, and the one place I still expect a crash. add_task returns None, and then task.completed = ... fails on None.
+Bad completed value, like Task,2025-01-01,maybe: this one can’t crash. completed == 'True' just evaluates to False for anything that isn’t exactly True, so the task loads as not completed. No fix or test is needed!!!]]]
+
+[[[
+Temp fix currently implemented:
+The honest middle option. You don’t have to apply my whole fix. The smallest change that stops the crash is two lines before the unpacking:
+%
+for row in csv.reader(file):
+    if len(row) != 3:        # <-- NEW: is this row the wrong size?
+        continue             # <-- NEW: if so, skip it and go to the next row
+    title, duedate, completed = row    # your existing line, untouched
+    if duedate == "":
+        ...                            # everything below stays as is
+]]]
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+BUG!!!!!!!!!!!!!!!!!!!!!
+4)
+- Read-only file: set tasks.txt to read-only (chmod 444 tasks.txt or Properties > Read-only on Windows), start the program, add a task, Q and yes to save, and show the error message instead of a traceback:
+
+[Returns:]
+Traceback (most recent call last):
+  File "c:\Users\psrga\Desktop\Per Scholas Python Essentials\2026 Python Essentials\2026-cax-216\356-sba-python-essentials-2-rod-gaitan\main.py", line 153, in <module>
+    main() # calls the function 'main()' to action.
+    ~~~~^^
+  File "c:\Users\psrga\Desktop\Per Scholas Python Essentials\2026 Python Essentials\2026-cax-216\356-sba-python-essentials-2-rod-gaitan\main.py", line 37, in main
+    task_list = load_tasks() # % 2) Replace the above line. This is done at the very end as part of connecting to the "file loading process"
+  File "c:\Users\psrga\Desktop\Per Scholas Python Essentials\2026 Python Essentials\2026-cax-216\356-sba-python-essentials-2-rod-gaitan\todolist.py", line 97, in load_tasks
+    title, duedate, completed = row # assign row(aka item) into title, duedate, completed
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: not enough values to unpack (expected 3, got 1)
+
+Fix:
+That’s the crash I expected: PermissionError: [Errno 13] Permission denied: 'tasks.csv', raised at the open(filename, "w", ...) line in save_tasks. It also confirms the read-only setting worked. Keep this traceback as your “before” capture.
+
+Why it crashed. Your load_tasks has try/except blocks, but save_tasks has none. When open(..., "w") failed, nothing caught the error, so it travelled up through main() and ended the program, which is what the chain of File ... lines shows. Python’s PermissionError is a subclass of OSError, which is why one except OSError will catch it and other file problems like a full disk.
+
+The fix. Wrap the body of save_tasks in a try/except. You already wrote the same pattern in load_tasks, so this is familiar:
+
+python
+def save_tasks(task_list, filename="tasks.csv"):
+    try:
+        with open(filename, "w", newline="") as file:
+            writer = csv.writer(file)
+            for task in task_list:
+                writer.writerow([task.title, task.due_date or "", task.completed])
+    except OSError as e:
+        print(f"Error: could not save tasks ({e}).")
+
+Keep your comments; only the try: / except lines are new, and everything between them gets indented one more level.
+
+One catch in main.py. Your main.py prints Tasks saved! right after calling save_tasks. With the fix, the error message prints, and then Tasks saved! would still print, which is misleading. Two ways around it:
+
+Simplest: move the print("Tasks saved!") into save_tasks, right after the with block, inside the try. Then it only prints on success. Remove it from main.py.
+Or have save_tasks return True on success and False on failure, and have main.py print only when it gets True.
+
+Option 1 is less to change.
+
+Then re-test:
+
+Leave tasks.csv read-only.
+Start the program, add a task, press Q, answer y.
+You should see the error message, no traceback, and the program should exit normally.
+
+RESULT:
+ok after adding the above fix I got: ==================== Task Manager ==========================: 
+            (A) Add a new task.
+            (C) Mark a task as completed.
+            (D) Delete a task.
+            (L) List all tasks. 
+            (Q) Quit.
+            
+Select menu option: a
+Enter task title: some task
+Enter task due date: 
+
+Task 'some task' added.
+
+==================== Task Manager ==========================: 
+            (A) Add a new task.
+            (C) Mark a task as completed.
+            (D) Delete a task.
+            (L) List all tasks. 
+            (Q) Quit.
+            
+Select menu option: l
+0: [-] Task: Task 1 (due 2025-01-01) OVERDUE
+1: [X] Task: Task 2  (due 2026-11-15) 
+2: [-] Task: Task 3 (due None) 
+3: [-] Task: Task 4 (due 2026-10-29) OVERDUE
+4: [-] Task: Task 6 - Persistance Demo (due None) 
+5: [-] Task: some task (due None) 
+
+==================== Task Manager ==========================: 
+            (A) Add a new task.
+            (C) Mark a task as completed.
+            (D) Delete a task.
+            (L) List all tasks. 
+            (Q) Quit.
+            
+Select menu option: q
+Save tasks before quitting? (Y/N): y
+Error: could not save tasks ([Errno 13] Permission denied: 'tasks.csv').
+Tasks saved!
+Good Bye!
+
+
+The fix works: no traceback, and the error message prints.  BUT.....................
+
+ISSUE 2 - PENDING!!!!!!!!!!!!!!!
+But your capture shows the problem I warned about. Right after Error: could not save tasks (...), it still prints Tasks saved!, which is false. A grader will notice that contradiction, so fix it before you record the final capture.
+
+The print("Tasks saved!") is in main.py, right after save_tasks(task_list). Move it into save_tasks so it only prints on success:
+
+In main.py, delete the print("Tasks saved!") line (keep the save_tasks(task_list) call).
+In todolist.py, add the print inside the try, after the with block finishes writing. It lines up with the with, not inside it:
+
+%
+def save_tasks(task_list, filename="tasks.csv"):
+    try:
+        with open(filename, "w", newline="") as file:
+            writer = csv.writer(file)
+            for task in task_list:
+                writer.writerow([task.title, task.due_date or "", task.completed])
+        print("Tasks saved!")
+    except OSError as e:
+        print(f"Error: could not save tasks ({e}).")
+
+If open fails, Python jumps straight to the except, so print("Tasks saved!") is skipped. On a good save, it prints as before.
+
+Then redo the test:
+
+Leave tasks.csv read-only.
+Start the program, add a task, press Q, answer y.
+Expected output: only the Error: could not save tasks ... line, then Good Bye!, with no Tasks saved!.
+
+Next, test that a normal save still works. Restore write permission with chmod 644 tasks.csv, then cp tasks_backup.csv tasks.csv. Start the program, add any task, quit with y, and confirm Tasks saved! appears. Then restore your five rows again with cp tasks_backup.csv tasks.csv and cat tasks.csv, so the file in your repo matches your Run 2 evidence.
+
+Paste the read-only re-test when you have it.
+
+In Summary:
+- What it takes to fix. About two minutes, two small edits:
+-- In main.py, delete the line print("Tasks saved!") (keep save_tasks(task_list)).
+-- In todolist.py, add print("Tasks saved!") inside the try of save_tasks, after the with block, lined up with the with.
+
+Also:
+Now restore your files so the repo matches your Run 2 evidence. In Git Bash from the project folder:
+%
+chmod 644 tasks.csv
+cp tasks_backup.csv tasks.csv
+cat tasks.csv
+
+You should see your five rows (Tasks 1, 2, 3, 4, 6). If the read-only attribute doesn’t clear, uncheck Read-only in File Explorer under tasks.csv > Properties.
+
+One more thing for the log: include the earlier traceback (before the try/except) above the new capture, labeled something like “Read-only file, before fix” and “Read-only file, after fix”. Together they show the crash and the handling.
